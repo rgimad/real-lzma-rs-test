@@ -1,0 +1,8 @@
+[package]
+name = "real-lzma-rs-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+byteorder = "1.5.0"
+lzma-rs = {version = "0.3.0", features = ["enable_logging", "env_logger", "log"]}
